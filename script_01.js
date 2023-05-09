@@ -72,13 +72,30 @@ console.log("Inhalt: " + test);
 
 // 04 Beispiel- Berechnng
 
+// // Deklaration 
+// const birthYearJohn = 2000;
+// const birthYearMarc = 1990;
+// let ageJohn, ageMarc;
+
+// ageJohn = 2023 - birthYearJohn;
+// ageMarc = 2023 - birthYearMarc;
+
+// //Ausgabe
+// console.log("ageJohn: " + ageJohn);
+// console.log("ageMarc: " + ageMarc);
+
+
 // Deklaration 
 const birthYearJohn = 2000;
 const birthYearMarc = 1990;
 let ageJohn, ageMarc;
 
-ageJohn = 2023 - birthYearJohn;
-ageMarc = 2023 - birthYearMarc;
+let date = new Date();
+let year = date.getFullYear();
+console.log(year);
+
+ageJohn = year - birthYearJohn;
+ageMarc = year - birthYearMarc;
 
 //Ausgabe
 console.log("ageJohn: " + ageJohn);
