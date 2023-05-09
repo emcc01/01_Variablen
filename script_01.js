@@ -46,14 +46,25 @@
 // mit prompt - Funktion öffnet sich Abfragefeld in Browser
 // Text in "" = string
 
-let test;
-test = "Max";
-test = 2;
-test = true;
+// let test;
+// test = "Max";
+// test = 2;
+// test = true;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
 
 // Variablen können strings sein, Zahlen, Boolean
 // Variablen können überschrieben werden
 // JS ist eine untypisierte Sprache | untyped
+
+
+// 03a Konstanten
+
+// let test = "Max";  //Deklaration + Wertzuweisung
+// test = "Maxine";
+// console.log("Inhalt: " + test);
+
+const test = "Max";  //diesmal konstant
+// test = "Maxine"; // funktioniert nicht, Fehlermeldung 
+console.log("Inhalt: " + test);
