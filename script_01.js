@@ -25,10 +25,35 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-let firstName; // Deklaration (Definition)
-firstName = "Max"; //Wertzuweisung
-console.log(firstName); // Ausgabe
+// let firstName; // Deklaration (Definition)
+// firstName = "Max"; //Wertzuweisung
+// console.log(firstName); // Ausgabe
 
-let familyName;
-familyName = "Mütze";
-console.log(familyName);
+// let familyName;
+// familyName = "Mütze";
+// console.log(familyName);
+
+// 03 Deklaration + Wertzuweisung II
+
+// let firstName, familyName;
+// firstName = prompt("Bitte Vornamen eingeben");
+// familyName = prompt("Bitte Nachnamen eingeben");
+// console.log(firstName + " " + familyName);
+// console.log(typeof firstName);
+
+// man kann mehrere Variablen mit , zusammen deklarieren
+// zur Ausgabe " " oder Komma für ein Leerzeichen
+// mit prompt - Funktion öffnet sich Abfragefeld in Browser
+// Text in "" = string
+
+let test;
+test = "Max";
+test = 2;
+test = true;
+
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
+
+// Variablen können strings sein, Zahlen, Boolean
+// Variablen können überschrieben werden
+// JS ist eine untypisierte Sprache | untyped
