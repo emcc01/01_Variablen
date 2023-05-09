@@ -68,3 +68,18 @@
 const test = "Max";  //diesmal konstant
 // test = "Maxine"; // funktioniert nicht, Fehlermeldung 
 console.log("Inhalt: " + test);
+
+
+// 04 Beispiel- Berechnng
+
+// Deklaration 
+const birthYearJohn = 2000;
+const birthYearMarc = 1990;
+let ageJohn, ageMarc;
+
+ageJohn = 2023 - birthYearJohn;
+ageMarc = 2023 - birthYearMarc;
+
+//Ausgabe
+console.log("ageJohn: " + ageJohn);
+console.log("ageMarc: " + ageMarc);
