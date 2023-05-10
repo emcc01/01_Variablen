@@ -63,7 +63,7 @@
 
 // let test = "Max";  //Deklaration + Wertzuweisung
 // test = "Maxine";
-// console.log("Inhalt: " + test);
+// console.log("Inhalt: " + test);   
 
 const test = "Max";  //diesmal konstant
 // test = "Maxine"; // funktioniert nicht, Fehlermeldung 
